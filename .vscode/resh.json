@@ -1,0 +1,19 @@
+{
+"version": "0.2.0",
+"configurations": [
+{
+"name": "Launch Edge - Studio Resh",
+"request": "launch",
+"type": "msedge",
+"url": "http://localhost:3000",
+"webRoot": "${workspaceFolder}"
+},
+{
+"type": "editor-browser",
+"request": "launch",
+"name": "Launch Integrated Browser - Studio Resh",
+"url": "http://localhost:3000",
+"webRoot": "${workspaceFolder}"
+}
+]
+}

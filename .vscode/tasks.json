@@ -1,0 +1,77 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Next.js build",
+			"type": "shell",
+			"command": "npm run build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Run Next.js build",
+			"type": "shell",
+			"command": "npm run build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Run Next.js build",
+			"type": "shell",
+			"command": "npm run build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Run Next.js build",
+			"type": "shell",
+			"command": "npm run build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Create placeholder logo",
+			"type": "shell",
+			"command": "powershell -NoProfile -Command \"$base='iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAuMBgADl8VwAAAAASUVORK5CYII='; [IO.File]::WriteAllBytes('public\\\\brand\\\\resh-logo.png', [Convert]::FromBase64String($base))\"",
+			"isBackground": false
+		},
+		{
+			"label": "Create placeholder logo",
+			"type": "shell",
+			"command": "powershell -NoProfile -Command \"$base = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAuMBgADl8VwAAAAASUVORK5CYII='; [System.IO.File]::WriteAllBytes('public\\\\brand\\\\resh-logo.png', [System.Convert]::FromBase64String($base))\"",
+			"isBackground": false
+		},
+		{
+			"label": "Create placeholder logo with node",
+			"type": "shell",
+			"command": "node -e \"const fs = require('fs'); const base='iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAuMBgADl8VwAAAAASUVORK5CYII='; fs.writeFileSync('public/brand/resh-logo.png', Buffer.from(base,'base64'));\"",
+			"isBackground": false
+		},
+		{
+			"label": "Create placeholder logo with node",
+			"type": "shell",
+			"command": "powershell -NoProfile -Command \"node -e \\\"const fs = require('fs'); const base='iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAuMBgADl8VwAAAAASUVORK5CYII='; fs.writeFileSync('public/brand/resh-logo.png', Buffer.from(base,'base64'));\\\"\"",
+			"isBackground": false
+		},
+		{
+			"label": "Create placeholder logo with node",
+			"type": "shell",
+			"command": "powershell -NoProfile -Command \"& { node -e 'const fs = require(\\\"fs\\\"); const base=\\\"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAuMBgADl8VwAAAAASUVORK5CYII=\\\"; fs.writeFileSync(\\\"public/brand/resh-logo.png\\\", Buffer.from(base,\\\"base64\\\"));' }\"",
+			"isBackground": false
+		},
+		{
+			"label": "Create placeholder logo with node",
+			"type": "shell",
+			"command": "node -e \"const fs = require(\\\"fs\\\"); const base=\\\"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAuMBgADl8VwAAAAASUVORK5CYII=\\\"; fs.writeFileSync(\\\"public/brand/resh-logo.png\\\", Buffer.from(base,\\\"base64\\\"));\"",
+			"isBackground": false
+		}
+	]
+}
