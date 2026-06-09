@@ -107,3 +107,4 @@ Edite `NEXT_PUBLIC_APPBARBER_URL` em `.env.local`.
 - O painel admin permite visualizar agendamentos, serviços, profissionais, horários e bloqueios.
 # resh-2
 # resh-2
+# projeto-barbearia
