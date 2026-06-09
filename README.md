@@ -105,3 +105,5 @@ Edite `NEXT_PUBLIC_APPBARBER_URL` em `.env.local`.
 - O agendamento interno bloqueia horários apenas para o profissional selecionado.
 - Agendamentos de profissionais diferentes podem ocorrer no mesmo horário se ambos estiverem livres.
 - O painel admin permite visualizar agendamentos, serviços, profissionais, horários e bloqueios.
+# resh-2
+# resh-2
